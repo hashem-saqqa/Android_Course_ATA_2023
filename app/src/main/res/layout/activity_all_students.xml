@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Section101.Revision2.AllStudentsActivity">
+
+    <EditText
+        android:id="@+id/studentNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Student Name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/studentGpaEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Student GPA"
+        app:layout_constraintTop_toBottomOf="@id/studentNameEt" />
+
+    <ImageView
+        android:id="@+id/studentImageIv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/add_icon"
+        app:layout_constraintStart_toStartOf="@id/studentGpaEt"
+        app:layout_constraintTop_toBottomOf="@id/studentGpaEt" />
+
+    <Button
+        android:id="@+id/addStudentBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        app:layout_constraintEnd_toEndOf="@id/studentGpaEt"
+        app:layout_constraintTop_toTopOf="@id/studentImageIv" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/studentsRv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/studentImageIv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
