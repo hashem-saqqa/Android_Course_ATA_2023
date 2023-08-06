@@ -1,7 +1,7 @@
-# Android_Course_ATA_2023
+# Android_Course_ATA_2023#
 **This is an advanced Android course that requires preknowledge about Android**
 
-## prerequests
+## prerequests##
 
 -XML Views
 -Activities
@@ -11,7 +11,7 @@
 -Recycle View
 -Shared preferences
 
-## Table of contents
+## Table of contents##
 -Room Database
 -Fragments
 -Notifications
