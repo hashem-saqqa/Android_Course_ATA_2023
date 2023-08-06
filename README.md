@@ -10,7 +10,7 @@
 *Menus
 *Recycle View
 *Shared preferences
-*
+
 ## Table of contents:
 -Room Database
 -Fragments
