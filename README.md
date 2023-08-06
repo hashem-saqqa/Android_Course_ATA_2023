@@ -3,7 +3,9 @@
 
 ## prerequests:
 *XML Views
+
 *Activities
+
 *Intent
 *Activity Result Launcher
 *Menus
