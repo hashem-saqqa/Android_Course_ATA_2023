@@ -1,17 +1,17 @@
 # Android_Course_ATA_2023
 **This is an advanced Android course that requires preknowledge about Android**
 
-## prerequests:
+## prerequests
 
-*XML Views
-*Activities
-*Intent
-*Activity Result Launcher
-*Menus
-*Recycle View
-*Shared preferences
+-XML Views
+-Activities
+-Intent
+-Activity Result Launcher
+-Menus
+-Recycle View
+-Shared preferences
 
-## Table of contents:
+## Table of contents
 -Room Database
 -Fragments
 -Notifications
@@ -19,7 +19,3 @@
 -Firebase
 -Web services
 -Google maps
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
