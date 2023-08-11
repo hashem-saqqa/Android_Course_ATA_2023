@@ -15,7 +15,7 @@
         android:theme="@style/Theme.Android_Course_ATA_2023"
         tools:targetApi="31">
         <activity
-            android:name=".Section101.RoomDatabase.ViewStudentsRoomActivity"
+            android:name=".Section101.RoomDatabasePart2.PlayersViewActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,9 +24,11 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".Section101.RoomDatabase.ViewStudentsRoomActivity"
+            android:exported="true" />
+        <activity
             android:name=".Section0.RoomDataBase.ProductsViewRoomActivity"
-            android:exported="true"/>
-
+            android:exported="true" />
         <activity
             android:name=".Section101.Revision2.AllStudentsActivity"
             android:exported="true" />
