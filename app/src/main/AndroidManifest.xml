@@ -15,10 +15,8 @@
         android:theme="@style/Theme.Android_Course_ATA_2023"
         tools:targetApi="31">
         <activity
-            android:name=".Section101.Fragments_Part2.MainActivity"
-            android:exported="true"
-            android:label="@string/title_activity_main"
-            android:theme="@style/Theme.Android_Course_ATA_2023">
+            android:name=".Section101.FragmentDialogs.AllCarsActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,14 +24,31 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".Section0.BottomNavigation.BottomNavigationMainActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".Section0.FragmentDialog.DialogsHomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Section101.TabLayoutWithViewPager.ProductsCatMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Section0.TabLayoutWithViewPager2.TabsMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Section101.Fragments_Part2.MainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Android_Course_ATA_2023" />
+        <activity
             android:name=".Section101.Fragments.FragmentsViewActivity"
             android:exported="true" />
         <activity
             android:name=".Section0.Fragments.MainActivity"
             android:exported="true"
             android:label="@string/title_activity_main"
-            android:theme="@style/Theme.Android_Course_ATA_2023">
-        </activity>
+            android:theme="@style/Theme.Android_Course_ATA_2023" />
         <activity
             android:name=".Section101.RoomDatabasePart2.PlayersViewActivity"
             android:exported="true" />
