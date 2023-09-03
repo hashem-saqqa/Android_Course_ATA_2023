@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -15,7 +18,7 @@
         android:theme="@style/Theme.Android_Course_ATA_2023"
         tools:targetApi="31">
         <activity
-            android:name=".Section101.NavigationDrawer.NavigationDrawerActivity"
+            android:name=".Section101.Retrofit.ApiPostsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,8 +27,54 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Section101.BottomNavigation.BottomNavigationActivity"
+            android:name=".Section0.Retrofit.RetrofitMainActivity"
             android:exported="true"/>
+
+
+        <service
+            android:name=".Section101.Services.MyService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".Section101.Services.MusicPlayerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Section101.Threads.CounterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Section0.Threads.CounterThreadMainActivity"
+            android:exported="true" />
+
+        <service
+            android:name=".Section0.Services.MyService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".Section0.Services.ServicesMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Section101.Notifications.ShowNotificationActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Section0.Notifications.ChatNameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Section0.Notifications.NotificationMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Section101.NavigationDrawer.NavigationDrawerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Section101.BottomNavigation.BottomNavigationActivity"
+            android:exported="true" />
         <activity
             android:name=".Section0.NavigationDrawer.NavDrawerMainActivity"
             android:exported="true" />
