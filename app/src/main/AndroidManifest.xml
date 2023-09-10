@@ -18,24 +18,29 @@
         android:theme="@style/Theme.Android_Course_ATA_2023"
         tools:targetApi="31">
         <activity
-            android:name=".Section0.Project1.TeamsPlayersHomeActivity"
+            android:name=".Section101.Firebase.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Section101.Firebase.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Section101.Firebase.RegisterActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+        <activity
+            android:name=".Section0.Project1.TeamsPlayersHomeActivity"
+            android:exported="true" />
         <activity
             android:name=".Section101.Retrofit.ApiPostsActivity"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Section0.Retrofit.RetrofitMainActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
 
         <service
             android:name=".Section101.Services.MyService"
@@ -62,13 +67,7 @@
             android:exported="true" />
         <activity
             android:name=".Section101.Notifications.ShowNotificationActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Section0.Notifications.ChatNameActivity"
             android:exported="false" />

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "787762073288",
+    "project_id": "android-ata",
+    "storage_bucket": "android-ata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787762073288:android:2cdd573c496fed816d1ffd",
+        "android_client_info": {
+          "package_name": "com.example.android_course_ata_2023"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkyAK8dXYQugqY3ynRDtmt_0czHd1uVxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
