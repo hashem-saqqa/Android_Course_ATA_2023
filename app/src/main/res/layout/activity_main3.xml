@@ -4,29 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Section101.Firebase.HomeActivity"
+    tools:context=".Section101.Firebase.MainActivity"
     android:orientation="vertical"
     android:gravity="center"
     >
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/profileImage"
-        android:src="@mipmap/ic_launcher"
-        />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome"
-        android:id="@+id/welcomeTv"
-        android:textSize="26sp"
-        android:textColor="#000"
-        android:textStyle="bold"
-        android:layout_marginTop="20dp"
+        android:id="@+id/viewDataTv"
+        android:textSize="22sp"
+        android:text="Data"
+        app:subtitleTextColor="#000"
         />
-
 
 
 </LinearLayout>
